@@ -4,7 +4,7 @@ author: 'kddeisz'
 inputs:
   githubToken:
     description: "Github token"
-    required: true
+    required: false
 runs:
   using: 'docker'
   image: 'docker://culturehq/actions-yarn:latest'
