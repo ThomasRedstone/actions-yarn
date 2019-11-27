@@ -1,6 +1,10 @@
 name: 'Yarn CLI'
 description: 'Executes actions using the yarn CLI.'
 author: 'kddeisz'
+inputs:
+  githubToken:
+    description: "Github token"
+    required: true
 runs:
   using: 'docker'
   image: 'docker://culturehq/actions-yarn:latest'
